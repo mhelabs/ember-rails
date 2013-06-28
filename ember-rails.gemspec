@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.add_dependency "barber", [">= 0.4.1"]
 
   s.add_dependency "ember-source"
-  s.add_dependency "handlebars-source"
+  s.add_dependency "handlebars-source", ["~> 1.0.12"]
   s.add_dependency "ember-data-source"
 
   s.add_development_dependency "bundler", [">= 1.2.2"]
@@ -25,7 +25,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "tzinfo"
 
   s.add_development_dependency "ember-source", '1.0.0.rc6'
-  s.add_development_dependency "handlebars-source", '1.0.0.rc4'
 
   s.files = %w(README.md LICENSE) + Dir["lib/**/*", "vendor/**/*"]
 
